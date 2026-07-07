@@ -1,15 +1,11 @@
 // 1. Your Master Profile (Hardcoded for Version 1)
 const myProfile = {
-  name: "Aditya Verma",
-  email: "aditya.v526@gmail.com",
-  phone: "9838047144",
-  linkedin: "https://linkedin.com/in/aditya-verma-pgp004",
+  name: "John Doe",
+  email: "John@gmail.com",
+  phone: "123456789",
+  linkedin: "https://linkedin.com/in/J-D",
   experience: "4 years",
   expectedSalary: "2250000",
-expected:"2250000",
-current: "1250000",
-notice: "60 + buyout"
-
 };
 
 // 2. Listen for the button click from popup.js
