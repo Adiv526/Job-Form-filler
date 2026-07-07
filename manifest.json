@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Job Autofill Pro",
+  "version": "1.0",
+  "description": "Automates Google Form job applications.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://docs.google.com/forms/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
